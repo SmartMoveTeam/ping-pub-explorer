@@ -1,24 +1,38 @@
 {
-	"chain_name": "crossfi",
-	"registry_name": "CrossFi",
-	"api": [
-    {"provider": "SmartMoveTeam", "address": "https://crossfi-testnet-api.smartmove.guru"},
-		{"provider": "ITRocket", "address": "https://crossfi-testnet-api.itrocket.net"}
-	],
-	"rpc": [
-		{"provider": "SmartMoveTeam", "address": "https://crossfi-testnet-rpc.smartmove.guru"}, 
-		{"provider": "ITRocket", "address": "https://crossfi-testnet-rpc.itrocket.net"}
-	],
-	"sdk_version": "0.46.13",
-	"coin_type": "60",
-	"min_tx_fee": "40000",
-	"addr_prefix": "mx",
-	"logo": "/logos/crossfi.svg",
-	"assets": [{
-		"base": "mpx",
-		"symbol": "PX",
-		"exponent": "18",
-		"coingecko_id": "", 
-		"logo": "/logos/crossfi.svg"
-	}]
+   "chain_name":"crossfi",
+   "registry_name":"CrossFi",
+   "api":[
+      {
+         "provider":"SmartMoveTeam",
+         "address":"https://crossfi-testnet-api.smartmove.guru"
+      },
+      {
+         "provider":"ITRocket",
+         "address":"https://crossfi-testnet-api.itrocket.net"
+      }
+   ],
+   "rpc":[
+      {
+         "provider":"SmartMoveTeam",
+         "address":"https://crossfi-testnet-rpc.smartmove.guru"
+      },
+      {
+         "provider":"ITRocket",
+         "address":"https://crossfi-testnet-rpc.itrocket.net"
+      }
+   ],
+   "sdk_version":"0.46.13",
+   "coin_type":"60",
+   "min_tx_fee":"40000",
+   "addr_prefix":"mx",
+   "logo":"/logos/crossfi.svg",
+   "assets":[
+      {
+         "base":"mpx",
+         "symbol":"PX",
+         "exponent":"18",
+         "coingecko_id":"",
+         "logo":"/logos/crossfi.svg"
+      }
+   ]
 }
