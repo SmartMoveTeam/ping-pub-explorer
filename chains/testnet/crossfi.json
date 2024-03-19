@@ -22,6 +22,10 @@
       }
    ],
    "sdk_version":"0.46.13",
+   "keplr_features":[
+      "eth-address-gen",
+      "eth-key-sign"
+   ],
    "coin_type":"60",
    "min_tx_fee":"40000",
    "addr_prefix":"mx",
